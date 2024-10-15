@@ -13,5 +13,5 @@ int main() {
     cin>>number2;
     
     cout<<"Product of the two numbers is "<<number1 * number2;
-    
+
 }
