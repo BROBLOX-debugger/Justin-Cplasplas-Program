@@ -2,9 +2,6 @@
 namespace std;
 
 int main(){
-int x;
-int y;
-if(x = 1 << y = 2 <<endl;
-cout << " false " ;
+cout << "JONATHAN";
 return 0;
 }
