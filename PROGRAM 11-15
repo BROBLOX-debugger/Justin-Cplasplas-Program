@@ -1,0 +1,134 @@
+11
+
+#include <iostream>
+using namespace std;
+
+int main () {
+  float gallons, liters;
+    cout<<"Enter the number of gallons: ";
+    cin>>gallons;
+    liters = gallons * 3.7854;
+    cout<<"The " <<gallons<<" gallons is equivalent to "<<liters<<" liters";
+}
+
+12
+
+#include <iostream>
+using namespace std;
+
+int main () {
+  int age;
+    cout<<"Please enter your age: ";
+    cin>>age;
+    if (age > 17)
+        cout<<"You are eligible to vote. Your age is "<<age<<" years old.\n";
+    else
+        cout<<"Sorry! You are not eligible to vote!";
+}
+
+13
+
+#include <iostream>
+using namespace std;
+
+int main () {
+  int mark;
+  char grade;
+    cout<<"Please the the mark of the student: ";
+    cin>>mark;
+    if (mark >= 0 && mark  <= 34)
+        grade = 'E';
+    else if (mark >= 35 && mark <= 54)
+        grade = 'D';
+    else if (mark >= 55 && mark <= 64)
+        grade = 'C';
+    else if (mark >= 65 && mark <= 74)
+        grade = 'B';
+    else if (mark >= 75 && mark <= 100)
+        grade = 'A';
+    if (mark >= 0 && mark <=100)
+        cout<<"Your grade is "<<grade;
+    else
+        cout<<"The mark you entered is invalid";
+}
+
+14
+
+#include <iostream>
+using namespace std;
+
+int main () {
+  int num;
+  cout<<"Enter the number of month: ";
+  cin>>num;
+  if (num >= 1 && num <= 12) {
+      if (num == 1)
+        cout<<"1 is January - The month of new Beginnings.\n\n";
+    else if (num == 2)
+        cout<<"2 is February - The month of Love.\n\n";
+    else if (num == 3)
+        cout<<"3 is March - The month of graduation.\n\n";
+    else if (num == 4)
+        cout<<"4 is April - The month of summer.\n\n";
+    else if (num == 5)
+        cout<<"5 is May - The month of relaxation.\n\n";
+    else if (num == 6)
+        cout<<"6 is June - The month of classes.\n\n";
+    else if (num == 7)
+        cout<<"7 is July - The month of meeting.\n\n";
+    else if (num == 😎
+        cout<<"8 is August - The month of hardworking.\n\n";
+    else if (num == 9)
+        cout<<"9 is September - The month of exams.\n\n";
+    else if (num == 10)
+        cout<<"10 is October - The month of celebration./n/n";
+    else if (num == 11)
+        cout<<"11 is November - The month of souls.\n\n";
+    else if (num == 12)
+        cout<<"12 is December - The month of giving.\n\n";
+  } else
+    cout<<"Error: The Input is invalid\n\n";
+} 
+
+15
+
+#include <iostream>
+using namespace std;
+
+int main () {
+  int month, day;
+  cout<<"Enter the month of your Birthday: ";
+  cin>>month;
+  cout<<"Enter the day of Your Birthday: ";
+  cin>>day;
+  if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+      if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+         if (month == 1 && day >= 20 && day <= 31 || month == 2 && day >= 1 && day <= 18)
+            cout<<"Your zodiac sign is Aquaruis.\n\n";
+        else if (month == 2 && day >= 19 && day <= 28 || month == 3 && day >= 1 && day <= 20)
+            cout<<"Your zodiac sign is Pisces.\n\n";
+        else if (month == 3 && day >= 21 && day <= 31 || month == 4 && day >= 1 && day <=19)
+            cout<<"Your zodiac sign is Aries.\n\n";
+        else if (month == 4 && day >= 20 && day <= 30 || month == 5 && day >= 1 && day <= 20)
+            cout<<"Your zodiac sign is Taurus.\n\n";
+        else if (month == 5 && day >= 21 && day <= 31 || month == 6 && day >= 1 && day <= 20)
+            cout<<"Your zodiac sign is Gemini.\n\n";
+        else if (month == 6 && day >= 19 && day <= 30 || month == 7 && day >= 1 && day <= 22)
+            cout<<"Your zodiac sign is Cancer.\n\n";
+        else if (month == 7 && day >= 23 && day <= 31 || month == 8 && day >= 1 && day <= 22)
+            cout<<"Your zodiac sign is Leo.\n\n";
+        else if (month == 8 && day >= 23 && day <= 31 || month == 9 && day >= 1 && day <= 23)
+            cout<<"Your zodiac sign is Virgo.\n\n";
+        else if (month == 9 && day >= 24 && day <= 30 || month == 10 && day >= 1 && day <= 22)
+            cout<<"Your zodiac sign is Libra.\n\n";
+        else if (month == 10 && day >= 23 && day <= 31 || month == 11 && day >= 1 && day <= 21)
+            cout<<"Your zodiac sign is Scorpio.\n\n";
+        else if (month == 11 && day >= 22 && day <= 30 || month == 12 && day >= 1 && day <= 21)
+            cout<<"Your zodiac sign is Sagittarius.\n\n";
+        else if (month == 12 && day >= 22 && day <= 31 || month == 1 && day >= 1 && day <= 19)
+            cout<<"Your zodiac sign is Capricorn.\n\n";
+      }
+  } else {
+    cout<<"Error: The Input is invalid\n\n";
+  }
+}
